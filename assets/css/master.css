@@ -1,0 +1,503 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900');
+@font-face {
+     font-family: 'sfhnos';
+     src: url(../fonts/LemonMilklight.otf) format('truetype');
+     font-weight: 300;
+     font-style: normal;
+}
+@font-face {
+     font-family: 'sfhnos';
+     src: url(../fonts/LemonMilk.otf) format('truetype');
+     font-weight: normal;
+     font-style: normal;
+}
+@font-face {
+     font-family: 'sfhnos';
+     src: url(../fonts/LemonMilkbold.otf) format('truetype');
+     font-weight: bold;
+     font-style: normal;
+}
+@font-face {
+     font-family: 'sfhnos';
+     src: url(../fonts/LemonMilkbolditalic.otf) format('truetype');
+     font-weight: bold;
+     font-style: italic;
+}
+ button, a, section,article, small, input, select {
+     font-family: 'Lato', sans-serif;
+     font-weight: 300;
+}
+#cover {
+     background: #000;
+     background-image: url(../media/gardengrill.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center center;
+     position: relative;
+}
+#cover::before {
+     display: block;
+     content: ' ';
+     width: 100%;
+     padding-top: 46.875%;
+}
+#cover > .container-fluid {
+     position: absolute;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+}
+#cover #carouselcover .carousel-inner .carousel-item .row {
+     padding-left: 100px !important;
+}
+#cover #carouselcover .carousel-inner .carousel-item .item {
+     position: relative;
+}
+#cover #carouselcover .carousel-inner .carousel-item .item .item-caption {
+     position: absolute;
+     right: -10%;
+     top: 150px;
+     color: #fff;
+     padding: 1em 5em;
+     z-index: -1;
+}
+#cover #carouselcover .carousel-inner .carousel-item .item .item-caption.mediana {
+     right: -22%;
+}
+#cover #carouselcover .carousel-inner .carousel-item .item .item-caption.grande {
+     right: -30%;
+}
+#cover #carouselcover .carousel-inner .carousel-item .item .item-caption.acero {
+     right: -24%;
+}
+#cover #carouselcover .carousel-inner .carousel-item .item .item-caption h1 {
+     font-size: 2.4em;
+     letter-spacing: 2px;
+     font-weight: bold;
+     font-family: 'sfhnos';
+     text-shadow: 1px 3px 2px rgba(0, 0, 0, 0.4);
+}
+#cover #carouselcover .carousel-inner .carousel-item .item .item-caption h6 {
+     font-weight: 300;
+     font-family: 'Lato', sans-serif;
+     text-align: left;
+     text-shadow: 0px 0px 0px rgba(0, 0, 0, 0) !important;
+     border-radius: 4px;
+     letter-spacing: 1px;
+     background: rgba(0, 0, 0, 0.5);
+     text-transform: capitalize;
+     padding: .5em;
+}
+
+#cover .title-brand {
+     color: #fff;
+     position: relative;
+     display: inline-block;
+     width: auto;
+     padding: 3em 2em 2em 2em;
+}
+#cover .title-brand::after {
+     width: 120%;
+     height: 120%;
+     content: ' ';
+     position: absolute;
+     top: -15%;
+     left: -10%;
+     background-image: url(../media/tabletitle.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center center;
+}
+#cover .title-brand > * {
+     position: relative;
+     z-index: 1;
+}
+.title-brand h1, .title-brand h2, .title-brand h3,  .title-brand h4, .title-brand h5, .title-brand h6 {
+     font-family: 'sfhnos';
+     margin: 0;
+     text-shadow: 0px 5px 10px rgba(0, 0, 0, 0.8);
+}
+.title-brand h5 {
+     font-weight: 300;
+     text-transform: uppercase;
+     margin-bottom: .2em;
+     font-size: 1.8em;
+     letter-spacing: 2px;
+}
+.title-brand h3 {
+     font-weight: normal;
+     margin-bottom: .3em;
+     font-size: 2.5em;
+     letter-spacing: 1px;
+}
+.title-brand h1 {
+     font-weight: bold;
+     font-size: 3.5em;
+}
+.form-content {
+     padding-bottom: 100px;
+}
+.form-content h1 {
+     font-family: 'sfhnos';
+     color: #fafafa;
+     font-size: 2em;
+     text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
+}
+.form-content p {
+     color: #fff;
+     font-weight: 300;
+     font-family: 'Lato';
+     font-size: 1.1em;
+     text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+header {
+     background: #424343;
+     color: #fff;
+     padding: .45em;
+}
+header .navbar .navbar-nav .nav-item .nav-link {
+     color: #fff;
+     font-family: 'Lato', sans-serif;
+     font-weight: 700;
+     font-size: 1.2em;
+     text-transform: uppercase;
+}
+header .navbar .navbar-nav .nav-item {
+     margin: auto 1em;
+     padding: 0em 2em;
+}
+header .navbar .navbar-nav .nav-item:nth-child(2) {
+     border: 1px solid #fff;
+     border-top-width: 0px;
+     border-bottom-width: 0px;
+}
+#benefits {
+     padding: 4em 0em;
+}
+#benefits h1 {
+     font-family: 'sfhnos';
+     letter-spacing: -1px;
+     line-height: 50px;
+     font-size: 2.3em;
+     font-weight: bold;
+     color: #009688;
+}
+#benefits h1 small {
+     color: #424242;
+}
+#benefits .media .d-flex {
+     background: transparent;
+     font-size: 4em;
+     padding: .2em;
+     width: 80px;
+     height: 80px;
+     filter: grayscale(50%);
+}
+#benefits .media .media-body h5 {
+     font-family: 'Lato', sans-serif;
+     font-size: 1.25em;
+     font-weight: 900;
+     text-transform: uppercase;
+     color: #323435;
+}
+#benefits .media .media-body {
+     font-family: 'Lato', sans-serif;
+     font-weight: 100;
+     line-height: normal;
+}
+#features {
+     padding: 3em 0em;
+}
+#features h1 {
+     font-family: 'sfhnos';
+     font-weight: bold;
+     font-size: 2em;
+     color: #009688;
+}
+#register {
+     padding: 3em 0em;
+     background: #009688;
+     color: #fff;
+}
+#register h1 {
+     letter-spacing: 1px;
+     font-family: 'sfhnos';
+     font-size: 2em;
+}
+#register h4 {
+     letter-spacing: 1px;
+     font-family: 'sfhnos';
+     font-size: 1.3em;
+}
+#register p {
+     font-family: 'Lato', sans-serif;
+}
+#register ul {
+     margin: 0;
+     margin-top: 1em;
+}
+#register ul  li a {
+     color: #fff;
+     font-size: 1.2em;
+     margin: .3em 1em;
+}
+
+ form input, form select {
+     font-family: 'Lato', sans-serif;
+     font-weight: 400;
+     color: #424242;
+     text-transform: normal;
+}
+ form input::-webkit-input-placeholder {
+     color: #929394;
+     font-weight: 100;
+}
+ form button {
+     background: #F44336;
+     font-family: 'Lato', sans-serif;
+     color: #fff;
+}
+table thead {
+     background: #424343;
+     color: #fff;
+}
+table thead tr th {
+     letter-spacing: 2px;
+     font-weight: normal;
+     text-align: center;
+}
+table tbody tr th {
+     font-family: 'Lato', sans-serif;
+     font-weight: 900;
+     text-align: right;
+     text-transform: uppercase;
+     color: #424343;
+}
+table tbody tr td {
+     font-family: 'Lato', sans-serif;
+     font-weight: 100;
+     text-align: center;
+}
+
+a {
+     color: #FFC107;
+}
+
+footer {
+     background: #424343;
+     padding: 1.5em;
+     color: #fff;
+     font-family: 'Lato', sans-serif;
+     font-weight: 100;
+}
+
+@media (max-width: 1440px) {
+     #cover .title-brand {
+          padding: 1.8em 2em 2em 2em;
+     }
+     #cover .title-brand::after {
+          width: 100%;
+          height: 100%;
+          top:-10%;
+          left: 0%;
+     }
+     .title-brand h5 {
+          font-size: 1.3em;
+     }
+     .title-brand h3 {
+          font-size: 1.9em;
+     }
+     .title-brand h1 {
+          font-size: 2.8em;
+     }
+     #cover #carouselcover .carousel-inner .carousel-item .item .item-caption {
+          right: -18%;
+          top: 100px;
+     }
+     #cover #carouselcover .carousel-inner .carousel-item .item .item-caption.mediana {
+          right: -30%;
+     }
+     #cover #carouselcover .carousel-inner .carousel-item .item .item-caption.grande {
+          right: -37%;
+     }
+     #cover #carouselcover .carousel-inner .carousel-item .item .item-caption.acero {
+          right: -34%;
+     }
+     #cover #carouselcover {
+          height: 100%;
+     }
+}
+@media (max-width: 1024px) {
+     #cover .title-brand {
+          padding: 2em;
+     }
+     #cover .title-brand::after {
+          width: 100%;
+          height: 100%;
+          top:-8%;
+          left: 0;
+     }
+     .title-brand h5 {
+          font-size: 1em;
+     }
+     .title-brand h3 {
+          font-size: 1.47em;
+     }
+     .title-brand h1 {
+          font-size: 2.1em;
+     }
+     #cover #carouselcover .carousel-inner .carousel-item .item .item-caption {
+          right: -58%;
+          top: 150px;
+     }
+     #cover #carouselcover .carousel-inner .carousel-item .item .item-caption.mediana {
+          right: -50%;
+          top: 170px;
+     }
+     #cover #carouselcover .carousel-inner .carousel-item .item .item-caption.grande {
+          right: -50%;
+          top: 170px;
+     }
+     #cover #carouselcover .carousel-inner .carousel-item .item .item-caption.acero {
+          right: -50%;
+          top: 170px;
+     }
+     #cover #carouselcover {
+          height: 100%;
+     }
+     #cover #carouselcover .carousel-inner .carousel-item .item .item-caption h1 {
+          font-size: 2em;
+     }
+     #cover #carouselcover .carousel-inner .carousel-item .row {
+          padding-left: 10px !important;
+     }
+     .form-content h1 {
+          font-size: 1.4em;
+          margin: 0;
+     }
+     .form-content p {
+          font-size: .9em;
+          margin-bottom: .1em;
+     }
+     .form-content form .form-group {
+          margin: .3em auto;
+     }
+     .form-content form input, .form-content form select {
+          font-size: .85em;
+     }
+     .form-content {
+          padding-bottom: 30px;
+     }
+     #benefits {
+          padding: 2em 0em;
+     }
+     #features {
+          padding: 2em 0em;
+     }
+     #register {
+          padding: 2em 0em;
+     }
+     #benefits h1 {
+          line-height: 40px;
+          font-size: 2em;
+     }
+     #benefits .media .d-flex {
+          width: 50px;
+          height: 50px;
+          padding: 0em;
+     }
+     #benefits .media .media-body h5 {
+          font-size: 1em;
+     }
+     #benefits .media .media-body {
+          font-size: .9em;
+     }
+     #register ul  li a {
+          font-size: 1em;
+     }
+}
+@media (max-width: 768px) {
+     #cover::before {
+          padding-top: 52%;
+     }
+     #cover #carouselcover .carousel-inner .carousel-item .item .item-caption {
+          right: -58%;
+          top: 50px;
+     }
+     #cover #carouselcover .carousel-inner .carousel-item .item .item-caption.mediana {
+          right: -65%;
+          top: 50px;
+     }
+     #cover #carouselcover .carousel-inner .carousel-item .item .item-caption.grande {
+          right: -75%;
+          top: 50px;
+     }
+     #cover #carouselcover .carousel-inner .carousel-item .item .item-caption.acero {
+          right: -66%;
+          top: 50px;
+     }
+     #cover #carouselcover {
+          height: 100%;
+     }
+     table thead tr th {
+          font-size: .8em;
+     }
+     table tbody tr th {
+          font-size: .8em;
+     }
+     table tbody tr td {
+          font-size: .9em;
+     }
+}
+@media (max-width: 425px) {
+     #cover::before {
+          padding-top: 150%;
+     }
+     #cover #carouselcover .carousel-inner .carousel-item .item .item-caption {
+          right: 0%;
+          top: 50%;
+          display: block;
+     }
+     #cover #carouselcover .carousel-inner .carousel-item .item .item-caption.mediana {
+          right: 0%;
+          top: 50%;
+     }
+     #cover #carouselcover .carousel-inner .carousel-item .item .item-caption.grande {
+          right: 0%;
+          top: 50%;
+     }
+     #cover #carouselcover .carousel-inner .carousel-item .item .item-caption.acero {
+          right: 0%;
+          top: 50%;
+     }
+     #cover #carouselcover .carousel-inner .carousel-item .item .item-caption h1 {
+          font-size: 1.6em;
+          text-align: center;
+     }
+     #cover #carouselcover .carousel-inner .carousel-item .item .item-caption h6 {
+          font-size: .9em;
+     }
+     #cover #carouselcover .carousel-inner .carousel-item .item .caption {
+          color: #fff;
+          z-index: -1;
+     }
+     #cover #carouselcover .carousel-inner .carousel-item .item .caption h1 {
+          font-size: 2.4em;
+          letter-spacing: 2px;
+          font-weight: bold;
+          font-family: 'sfhnos';
+          text-shadow: 1px 3px 2px rgba(0, 0, 0, 0.4);
+     }
+     #cover #carouselcover .carousel-inner .carousel-item .item .caption h6 {
+          font-weight: 300;
+          font-family: 'Lato', sans-serif;
+          text-shadow: 0px 0px 0px rgba(0, 0, 0, 0) !important;
+          border-radius: 4px;
+          letter-spacing: 1px;
+          background: rgba(0, 0, 0, 0.5);
+          text-transform: capitalize;
+          padding: .5em;
+     }
+}
