@@ -1,3 +1,8 @@
+$('.carousel').carousel({
+  interval: 2000,
+  pause: ""
+})
+
 $('.link-scroll').click(function(e) {
      e.preventDefault();
      var target = $(this).attr('href');
